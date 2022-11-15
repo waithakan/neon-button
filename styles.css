@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color:#222;
+}
+.glow {
+    margin:auto;
+    display: block;
+    margin-top: 45vh;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #45aacc;
+    box-shadow: 5px 5px 10px #45aacc;
+    color: #45aacc;
+    padding: .5em;
+    font-size: 1em;
+    width: 10em;
+    cursor: pointer;
+}
+.glow:active {
+    transform: scale(.95);
+}
